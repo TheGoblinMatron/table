@@ -1,0 +1,39 @@
+body {
+    background-color: white;
+    color: #1f2937;
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header, .footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+button, .calltoaction {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+button {
+    border-radius: 8px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.inspoquote {
+    background-color: #e5e7eb;
+}
+
+.imgbox {
+    border-radius: 16px;
+    border: 2px solid #3882f6;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
