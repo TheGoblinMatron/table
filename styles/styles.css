@@ -13,6 +13,35 @@ body {
     color: #f9faf8;
 }
 
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.infoblock {
+    padding: 30px;
+    max-width: 400px;
+}
+
+.subtitle {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #e5e7eb;
+}
+
+.subtext {
+    font-size: 18px;
+}
+
+.banner {
+    background-color: #e5e7eb;
+    height: 200px;
+    width: 400px;
+}
+
+
 button, .calltoaction {
     background-color: #3882f6;
     color: #f9faf8;
@@ -26,8 +55,22 @@ ul {
     list-style-type: none;
 }
 
+li {
+
+}
+
 .inspoquote {
     background-color: #e5e7eb;
+    padding: 75px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    max-width: 70%;
+}
+
+.inspoattr {
+    font-weight: bolder;
 }
 
 .imgbox {
